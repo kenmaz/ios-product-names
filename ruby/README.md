@@ -1,8 +1,14 @@
 # CupatinoProductNames
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cupatino_product_names`. To experiment with that code, run `bin/console` for an interactive prompt.
+Convert Apple device model name to product name.
 
-TODO: Delete this and the text above, and describe your gem
+## Usage
+
+```ruby
+model_name = 'iPhone7,2'
+product_name = model_name.to_product_name
+p product_name # => 'iPhone 6'
+```
 
 ## Installation
 
@@ -19,10 +25,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install cupatino_product_names
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
